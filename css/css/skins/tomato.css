@@ -24,17 +24,27 @@ p {
   color: #FF6347;
   background-color: rgba(255, 255, 255, 0.1); }
 
-#promo {
+.wrap_label {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff; }
+
+.wrap_label_inner {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color: #fff; }
+
+#prm {
   background-color: #f2ebe2; }
-  #promo h1 {
+  #prm h1 {
     color: #553d40; }
-  #promo .under_line {
+  #prm .under_line {
     background-color: #8b7c7e; }
 
 #summary {
   background-color: #FFF; }
+  #summary h1 {
+    color: #553d40; }
   #summary .under_line {
-    background-color: #000; }
+    background-color: #8b7c7e; }
 
 #portfolio {
   background-color: #444;
@@ -49,5 +59,14 @@ p {
 
 footer {
   background-color: #444; }
+
+.colbs_name {
+  color: #553d40; }
+
+.colbs_descr {
+  color: #553d40; }
+
+.colbs_price {
+  color: #553d40; }
 
 /*# sourceMappingURL=tomato.css.map */

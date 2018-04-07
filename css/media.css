@@ -3,15 +3,28 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+    #prm_img_bottom {
+        width: 315px; 
+    }
+    #prm_img_flower {
+        width: 315px; 
+        bottom: 55px;
+    }
+    #prm_img_glass {
+        width: 315px; 
+        bottom: 55px;
+    }
 }
 
 
 @media only screen and (max-width : 1024px) {
-
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    #prm_img_constructor {
+        display: none;
+    }
     .wrap_label {
         margin-top: 30px;
         width: 100%;
@@ -21,6 +34,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    .prm_img_wrapp {
+        display: none;
+    }
 }
 
 /* Extra Small Devices, Phones */
