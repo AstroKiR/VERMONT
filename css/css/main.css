@@ -135,11 +135,13 @@ body textarea:required:valid {
 
 #about,
 #summary,
+#bestsellers,
 #portfolio,
 #contacts {
   padding: 67px 10px; }
   #about h1,
   #summary h1,
+  #bestsellers h1,
   #portfolio h1,
   #contacts h1 {
     margin: 0px auto 23px auto;
@@ -149,6 +151,7 @@ body textarea:required:valid {
     font-size: 50px; }
   #about .section_description,
   #summary .section_description,
+  #bestsellers .section_description,
   #portfolio .section_description,
   #contacts .section_description {
     text-align: center;
@@ -157,6 +160,7 @@ body textarea:required:valid {
     margin: 0px 0px 35px 0px; }
   #about .under_line,
   #summary .under_line,
+  #bestsellers .under_line,
   #portfolio .under_line,
   #contacts .under_line {
     height: 1px;
@@ -164,6 +168,7 @@ body textarea:required:valid {
     margin: 0px auto 55px auto; }
   #about .section_content,
   #summary .section_content,
+  #bestsellers .section_content,
   #portfolio .section_content,
   #contacts .section_content {
     text-align: center; }
@@ -269,5 +274,52 @@ section h1 {
   padding: 5px;
   font-weight: bold;
   font-size: 22px; }
+
+.bestsellers_border {
+  padding: 4px;
+  border-radius: 7px;
+  margin-bottom: 30px; }
+
+.bestsellers_inner {
+  position: relative;
+  border-radius: 7px;
+  padding: 15px;
+  text-align: center; }
+  .bestsellers_inner img {
+    width: 100%; }
+
+.bestsellers_head {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.bestsellers_label_hit {
+  padding: 4px 8px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  left: 0px;
+  top: 15px; }
+
+.bestsellers_label_lider {
+  padding: 4px 8px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  left: 0px;
+  top: 15px; }
+
+.bestsellers_label_new {
+  padding: 4px 8px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  left: 0px;
+  top: 15px; }
 
 /*# sourceMappingURL=main.css.map */
