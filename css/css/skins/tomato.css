@@ -32,11 +32,11 @@ p {
   background-color: rgba(255, 255, 255, 0.7);
   border-color: #fff; }
 
-#prm {
+#about {
   background-color: #f2ebe2; }
-  #prm h1 {
+  #about h1 {
     color: #553d40; }
-  #prm .under_line {
+  #about .under_line {
     background-color: #8b7c7e; }
 
 #summary {
@@ -68,5 +68,19 @@ footer {
 
 .colbs_price {
   color: #553d40; }
+
+#about .panel {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #fff;
+  transition: all 400ms ease-in-out; }
+
+.about_border {
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: all 400ms ease-in-out;
+  border: 1px solid #fff; }
+
+.about_border:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 400ms ease-in-out; }
 
 /*# sourceMappingURL=tomato.css.map */
