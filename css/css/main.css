@@ -136,13 +136,13 @@ body textarea:required:valid {
 #about,
 #summary,
 #bestsellers,
-#portfolio,
+#advantages,
 #contacts {
   padding: 67px 10px; }
   #about h1,
   #summary h1,
   #bestsellers h1,
-  #portfolio h1,
+  #advantages h1,
   #contacts h1 {
     margin: 0px auto 23px auto;
     width: inherit;
@@ -152,7 +152,7 @@ body textarea:required:valid {
   #about .section_description,
   #summary .section_description,
   #bestsellers .section_description,
-  #portfolio .section_description,
+  #advantages .section_description,
   #contacts .section_description {
     text-align: center;
     font-weight: bold;
@@ -161,7 +161,7 @@ body textarea:required:valid {
   #about .under_line,
   #summary .under_line,
   #bestsellers .under_line,
-  #portfolio .under_line,
+  #advantages .under_line,
   #contacts .under_line {
     height: 1px;
     width: 150px;
@@ -169,9 +169,12 @@ body textarea:required:valid {
   #about .section_content,
   #summary .section_content,
   #bestsellers .section_content,
-  #portfolio .section_content,
+  #advantages .section_content,
   #contacts .section_content {
     text-align: center; }
+
+#about {
+  background-image: url("img/retro-rose-pattern.jpg") repeat; }
 
 footer {
   height: 111px; }
@@ -321,5 +324,38 @@ section h1 {
   position: absolute;
   left: 0px;
   top: 15px; }
+
+.advantages_description {
+  text-align: left;
+  font-size: 14px; }
+
+.kenya {
+  margin-top: 27px;
+  line-height: 50px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold; }
+  .kenya img {
+    margin-right: 25px;
+    float: right;
+    width: 50px; }
+
+.belgium {
+  margin-top: 12px;
+  line-height: 50px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold; }
+  .belgium img {
+    margin-right: 25px;
+    float: right;
+    width: 50px; }
+
+.advantages_brands {
+  font-weight: bold; }
+
+.advantages_brands_logo {
+  width: 100%;
+  margin-top: 75px; }
 
 /*# sourceMappingURL=main.css.map */

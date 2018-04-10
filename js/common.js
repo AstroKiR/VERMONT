@@ -38,7 +38,7 @@ $(document).ready(function() {
             animation_block($("a[href*='about']"), "bounceInUp", 100);
             animation_block($("a[href*='summary']"), "bounceInUp", 250);
             animation_block($("a[href*='bestsellers']"), "bounceInUp", 250);
-            animation_block($("a[href*='portfolio']"), "bounceInUp", 400);
+            animation_block($("a[href*='advantages']"), "bounceInUp", 400);
             animation_block($("a[href*='contacts']"), "bounceInUp", 550);
         } else {
             $(".top_mnu").fadeOut(600);
