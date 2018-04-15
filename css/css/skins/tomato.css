@@ -25,12 +25,12 @@ p {
   background-color: rgba(255, 255, 255, 0.1); }
 
 .wrap_label {
-  background-color: rgba(255, 255, 255, 0.4);
-  border-color: #fff; }
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1); }
 
 .wrap_label_inner {
-  background-color: rgba(255, 255, 255, 0.7);
-  border-color: #fff; }
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.3); }
 
 #about {
   background-color: #f2ebe2; }
@@ -78,13 +78,13 @@ footer {
 
 #about .panel {
   background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 400ms ease-in-out; }
 
 .about_border {
   background-color: rgba(255, 255, 255, 0.4);
   transition: all 400ms ease-in-out;
-  border: 1px solid #fff; }
+  border: 1px solid rgba(255, 255, 255, 0.4); }
 
 .about_border:hover {
   background-color: rgba(255, 255, 255, 0.8);
