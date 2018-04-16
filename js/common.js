@@ -65,5 +65,55 @@ $(document).ready(function() {
         }
     });
 
+    $(".bottom_left_about .panel .invisible_wrapp").mouseover(function() {
+        $(".bottom_left_about .panel .about_border").css("background-color", "rgba(255, 255, 255, 1)"); 
+        $("#about_img_flower").addClass("about_img_flower_hid");
+        $("#about_img_glass").addClass("about_img_glass_hid");
+        $("#about_img_bottom").addClass("animated 300 pulse");
+    });
+
+    $(".bottom_left_about .panel .invisible_wrapp").mouseout(function() {
+        $(".bottom_left_about .panel .about_border").css("background-color", "rgba(255, 255, 255, 0.6)"); 
+        $("#about_img_flower").removeClass("about_img_flower_hid");
+        $("#about_img_glass").removeClass("about_img_glass_hid");
+        $("#about_img_bottom").removeClass("animated 300 pulse");
+    });
+
+    $(".top_left_about .panel .invisible_wrapp").mouseover(function() {
+        $(".top_left_about .panel .about_border").css("background-color", "rgba(255, 255, 255, 1)"); 
+    });
+
+    $(".top_left_about .panel .invisible_wrapp").mouseout(function() {
+        $(".top_left_about .panel .about_border").css("background-color", "rgba(255, 255, 255, 0.6)"); 
+    });
+
+    $(".bottom_right_about .panel .invisible_wrapp").mouseover(function() {
+        $(".bottom_right_about .panel .about_border").css("background-color", "rgba(255, 255, 255, 1)"); 
+        $("#about_img_bottom").addClass("about_img_bottom_hid");
+        $("#about_img_glass").addClass("about_img_glass_hid");
+        $("#about_img_flower").addClass("animated 300 pulse");
+    });
+
+    $(".bottom_right_about .panel .invisible_wrapp").mouseout(function() {
+        $(".bottom_right_about .panel .about_border").css("background-color", "rgba(255, 255, 255, 0.6)"); 
+        $("#about_img_bottom").removeClass("about_img_bottom_hid");
+        $("#about_img_glass").removeClass("about_img_glass_hid");
+        $("#about_img_flower").removeClass("animated 300 pulse");
+    });
+
+    $(".top_right_about .panel .invisible_wrapp").mouseover(function() {
+        $(".top_right_about .panel .about_border").css("background-color", "rgba(255, 255, 255, 1)"); 
+        $("#about_img_bottom").addClass("about_img_bottom_hid");
+        $("#about_img_flower").addClass("about_img_flower_hid");
+        $("#about_img_glass").addClass("animated 300 pulse");
+    });
+
+    $(".top_right_about .panel .invisible_wrapp").mouseout(function() {
+        $(".top_right_about .panel .about_border").css("background-color", "rgba(255, 255, 255, 0.6)"); 
+        $("#about_img_bottom").removeClass("about_img_bottom_hid");
+        $("#about_img_flower").removeClass("about_img_flower_hid");
+        $("#about_img_glass").removeClass("animated 300 pulse");
+    });
+
 });
 
