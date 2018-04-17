@@ -115,5 +115,82 @@ $(document).ready(function() {
         $("#about_img_glass").removeClass("animated 300 pulse");
     });
 
+    $("#info_block_tl1 .info_block_wrapp").mouseover(function() {
+        $("#info_block_tl1 .info_block_img").addClass("info_block_hide");
+        $("#info_block_tl1 .info_block_head").addClass("info_block_hide");
+        $("#info_block_tl1 .info_block_descr").removeClass("info_block_hide");
+        $("#info_block_tl1 .info_block_bottom").addClass("info_block_hide");
+    });
+    $("#info_block_tl1 .info_block_wrapp").mouseout(function() {
+        $("#info_block_tl1 .info_block_img").removeClass("info_block_hide");
+        $("#info_block_tl1 .info_block_head").removeClass("info_block_hide");
+        $("#info_block_tl1 .info_block_descr").addClass("info_block_hide");
+        $("#info_block_tl1 .info_block_bottom").removeClass("info_block_hide");
+    });
+
+    $("#info_block_tl2 .info_block_wrapp").mouseover(function() {
+        $("#info_block_tl2 .info_block_img").addClass("info_block_hide");
+        $("#info_block_tl2 .info_block_head").addClass("info_block_hide");
+        $("#info_block_tl2 .info_block_descr").removeClass("info_block_hide");
+        $("#info_block_tl2 .info_block_bottom").addClass("info_block_hide");
+    });
+    $("#info_block_tl2 .info_block_wrapp").mouseout(function() {
+        $("#info_block_tl2 .info_block_img").removeClass("info_block_hide");
+        $("#info_block_tl2 .info_block_head").removeClass("info_block_hide");
+        $("#info_block_tl2 .info_block_descr").addClass("info_block_hide");
+        $("#info_block_tl2 .info_block_bottom").removeClass("info_block_hide");
+    });
+
+    $("#info_block_bl1 .info_block_wrapp").mouseover(function() {
+        $("#info_block_bl1 .info_block_img").addClass("info_block_hide");
+        $("#info_block_bl1 .info_block_head").addClass("info_block_hide");
+        $("#info_block_bl1 .info_block_descr").removeClass("info_block_hide");
+        $("#info_block_bl1 .info_block_bottom").addClass("info_block_hide");
+    });
+    $("#info_block_bl1 .info_block_wrapp").mouseout(function() {
+        $("#info_block_bl1 .info_block_img").removeClass("info_block_hide");
+        $("#info_block_bl1 .info_block_head").removeClass("info_block_hide");
+        $("#info_block_bl1 .info_block_descr").addClass("info_block_hide");
+        $("#info_block_bl1 .info_block_bottom").removeClass("info_block_hide");
+    });
+
+    $("#info_block_tr1 .info_block_wrapp").mouseover(function() {
+        $("#info_block_tr1 .info_block_img").addClass("info_block_hide");
+        $("#info_block_tr1 .info_block_head").addClass("info_block_hide");
+        $("#info_block_tr1 .info_block_descr").removeClass("info_block_hide");
+        $("#info_block_tr1 .info_block_bottom").addClass("info_block_hide");
+    });
+    $("#info_block_tr1 .info_block_wrapp").mouseout(function() {
+        $("#info_block_tr1 .info_block_img").removeClass("info_block_hide");
+        $("#info_block_tr1 .info_block_head").removeClass("info_block_hide");
+        $("#info_block_tr1 .info_block_descr").addClass("info_block_hide");
+        $("#info_block_tr1 .info_block_bottom").removeClass("info_block_hide");
+    });
+
+    $("#info_block_br1 .info_block_wrapp").mouseover(function() {
+        $("#info_block_br1 .info_block_img").addClass("info_block_hide");
+        $("#info_block_br1 .info_block_head").addClass("info_block_hide");
+        $("#info_block_br1 .info_block_descr").removeClass("info_block_hide");
+        $("#info_block_br1 .info_block_bottom").addClass("info_block_hide");
+    });
+    $("#info_block_br1 .info_block_wrapp").mouseout(function() {
+        $("#info_block_br1 .info_block_img").removeClass("info_block_hide");
+        $("#info_block_br1 .info_block_head").removeClass("info_block_hide");
+        $("#info_block_br1 .info_block_descr").addClass("info_block_hide");
+        $("#info_block_br1 .info_block_bottom").removeClass("info_block_hide");
+    });
+
+    $("#info_block_br2 .info_block_wrapp").mouseover(function() {
+        $("#info_block_br2 .info_block_img").addClass("info_block_hide");
+        $("#info_block_br2 .info_block_head").addClass("info_block_hide");
+        $("#info_block_br2 .info_block_descr").removeClass("info_block_hide");
+        $("#info_block_br2 .info_block_bottom").addClass("info_block_hide");
+    });
+    $("#info_block_br2 .info_block_wrapp").mouseout(function() {
+        $("#info_block_br2 .info_block_img").removeClass("info_block_hide");
+        $("#info_block_br2 .info_block_head").removeClass("info_block_hide");
+        $("#info_block_br2 .info_block_descr").addClass("info_block_hide");
+        $("#info_block_br2 .info_block_bottom").removeClass("info_block_hide");
+    });
 });
 
