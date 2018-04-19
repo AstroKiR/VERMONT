@@ -607,4 +607,39 @@ section h1 {
 .info_block_bottom span {
   font-size: 50px; }
 
+.contact_form {
+  padding: 7px; }
+
+.contact_form_border {
+  background-color: #eee;
+  background-image: url("../../img/red-blue-rectangles3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+  opacity: 0.8; }
+
+.contact_form_inner {
+  border: 1px solid #eee;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 7px;
+  width: 100%;
+  height: 100%; }
+  .contact_form_inner .form-group {
+    text-align: left;
+    margin-bottom: 25px; }
+  .contact_form_inner input {
+    width: 100%; }
+  .contact_form_inner textarea {
+    width: 100%;
+    height: 150px; }
+  .contact_form_inner span {
+    color: red; }
+  .contact_form_inner h2 {
+    margin: 10px auto 30px auto;
+    font-size: 14px;
+    text-transform: uppercase; }
+  .contact_form_inner button {
+    width: 100%; }
+
 /*# sourceMappingURL=main.css.map */
