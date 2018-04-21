@@ -213,8 +213,31 @@ body textarea:required:valid {
   #contacts .section_content {
     text-align: center; }
 
-footer {
-  height: 111px; }
+footer #footer_copy {
+  text-align: center;
+  font-size: 11px;
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.4); }
+  footer #footer_copy a {
+    text-decoration: none; }
+footer #footer_logo img {
+  height: 100px;
+  margin: 25px 0 25px 0;
+  opacity: 0.6; }
+footer #requisites {
+  margin: 25px 0 25px 0;
+  float: right; }
+  footer #requisites #requisites_head {
+    font-weight: bold; }
+  footer #requisites p {
+    font-size: 11px;
+    margin: 2px;
+    text-align: left; }
+    footer #requisites p a {
+      text-decoration: none; }
+footer #pluso_links {
+  opacity: 0.8;
+  margin: 25px 0 25px 0; }
 
 .hidden {
   opacity: 0; }

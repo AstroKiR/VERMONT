@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    $("#current_year").html(new Date().getFullYear());
     function animation_block(item, animate_type, dl) {
 
         setTimeout(function () {
