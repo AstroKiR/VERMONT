@@ -29,6 +29,30 @@
         margin-top: 30px;
         width: 100%;
     }
+    
+    .top_left_about .panel {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .top_right_about .panel {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .bottom_left_about .panel {
+      float: none; 
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .bottom_right_about .panel {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 }
 

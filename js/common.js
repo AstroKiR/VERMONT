@@ -193,5 +193,48 @@ $(document).ready(function() {
         $("#info_block_br2 .info_block_descr").addClass("info_block_hide");
         $("#info_block_br2 .info_block_bottom").removeClass("info_block_hide");
     });
+    var arr = document.getElementById("up_arrow");
+
+	window.onscroll = function() {
+		/* Величина прокрутки страницы */
+		var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+
+		/* Высота клиентского окна */
+		var height_doc_el = document.documentElement.clientHeight;
+
+		/* Полная высота документа */
+		var scrollHeight = Math.max(
+			document.body.scrollHeight, document.documentElement.scrollHeight,
+			document.body.offsetHeight, document.documentElement.offsetHeight,
+			document.body.clientHeight, document.documentElement.clientHeight
+		);
+
+		/* Из полной высоты вычитаем высоту клиентского окна */
+		scrollHeight -= parseInt(height_doc_el);
+
+		/* Получаем прокрутку в процентах */
+		var percentage_scroll = Math.ceil(scrolled * 100 / scrollHeight);
+
+		/* Задаем стиль элемента */
+		document.getElementById("bar").style.width = percentage_scroll + '%';
+
+		if(percentage_scroll > 5) {
+			arr.style = "display:block";
+		} else {
+			arr.style = "display:none";
+		}
+	}
+
+	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+		e.preventDefault();
+		var target = this.hash,
+			$target = $(target);
+		 
+		$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		}, 500, 'swing', function () {
+			window.location.hash = target;
+		});
+	});
 });
 
