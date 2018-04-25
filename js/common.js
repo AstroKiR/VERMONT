@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    $("#phone").mask("+375 (99) 999-99-99");
     $("#current_year").html(new Date().getFullYear());
     function animation_block(item, animate_type, dl) {
 
