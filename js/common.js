@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	$(".loader_inner").fadeOut(); 
+	$(".loader").delay(400).fadeOut("slow"); 
 
     $("#phone").mask("+375 (99) 999-99-99");
     $("#current_year").html(new Date().getFullYear());
