@@ -42,7 +42,7 @@ p {
 #summary {
   background-color: #FFF; }
   #summary h1 {
-    color: #553d40; }
+    color: #9c777c; }
   #summary .under_line {
     background-color: #8b7c7e; }
 
@@ -70,7 +70,8 @@ footer {
 .colbs_name {
   color: #553d40; }
 
-.colbs_descr {
+.colbs_descr,
+.colbs_blossom {
   color: #553d40; }
 
 .colbs_price {
@@ -115,7 +116,7 @@ footer {
 #img4nu,
 #img5nu,
 #img6nu {
-  color: #faf7f3;
+  color: #e6dada;
   text-shadow: 1px 1px 1px #f2ebe2; }
 
 /*# sourceMappingURL=tomato.css.map */

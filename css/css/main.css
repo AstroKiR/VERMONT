@@ -375,9 +375,14 @@ section h1 {
   font-size: 20px;
   font-weight: bold; }
 
-.colbs_descr {
+.colbs_blossom {
   font-size: 11px;
   margin-top: 15px;
+  text-transform: lowercase; }
+
+.colbs_descr {
+  font-size: 11px;
+  margin-top: 5px;
   text-transform: lowercase; }
 
 .colbs_price {
@@ -494,6 +499,13 @@ section h1 {
   position: absolute;
   top: 20px;
   left: 5px; }
+
+.action {
+  position: absolute;
+  bottom: 230px;
+  right: 5px;
+  width: 33%;
+  opacity: 0.5; }
 
 #img1nu {
   font-size: 140px; }
