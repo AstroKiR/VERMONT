@@ -17,7 +17,7 @@
             $message .= "Сообщение: " . $_POST["message"] . ".";
         }
         $date = date("Y/m/d H:i:s");
-        $to = "info@ moh.by";
+        $to = "info@moh.by";
         $subject = "Сообщение из формы обратной связи moh.by от {$date}";
         $headers = "MIME-Version: 1.0\r\n";
         $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
